@@ -32,6 +32,22 @@ This project utilizes machine learning and computer vision techniques to recogni
 - training.py: Script for training the dynamic sign recognition model.
 - testing.py: Script for real-time dynamic sign prediction using a webcam
 
+## Dataset 
+Add your data folder before starting the training. <br />
+The /data folder is of format: <br />
+* data
+    * Training
+        * 1.mp4
+        * 2.mp4
+        * ....
+    * Testing
+        * 1.mp4
+        * 2.mp4
+        * ....
+    * Validation
+        * 1.mp4
+        * 2.mp4
+        * ....
 ## Training the model
 To train the ASL recognition model, run:
 
